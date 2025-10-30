@@ -72,12 +72,6 @@ section h2 {
     color: #00ffff;
 }
 
-section h3 {
-    font-size: 0.5rem;
-    margin-bottom: 1rem;
-    color: #00ffff;
-}
-
 .project-card {
     background: #1a1a1a;
     padding: 1.5rem;
@@ -147,6 +141,7 @@ html {
     box-shadow: 0 0 5px rgba(0,255,255,0.3);
     display: block;    /* ensures it behaves like a block element */
 }
+
 
 
 
