@@ -61,7 +61,7 @@ header .tagline {
 }
 
 section {
-    padding: 3rem 2rem;
+    padding: 4rem 3rem;
     max-width: 1000px;
     margin: auto;
 }
@@ -141,6 +141,7 @@ html {
     box-shadow: 0 0 5px rgba(0,255,255,0.3);
     display: block;    /* ensures it behaves like a block element */
 }
+
 
 
 
