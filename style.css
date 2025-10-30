@@ -125,18 +125,22 @@ html {
     box-shadow: 0 0 5px rgba(0,255,255,0.3); /* optional glow */
 }
 
-.project-image2 {           /*def used ai for project-image2 and project image3 since i didnt know how to do it... im sorry...*/
+.project-image2 {
     display: flex;
-    flex-direction: column; /* stack vertically */
-    gap: 1rem;              /* space between images */
-    align-items: center;     /* optional: center images horizontally */
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem; /* prevents overlap with text/footer */
 }
 
 .project-image3 {
-    width: 400px;     /* same width for all images */
-    height: auto;     /* auto height to keep full image visible */
-    border-radius: 8px; 
-    box-shadow: 0 0 5px rgba(0,255,255,0.3); 
+    width: 400px;      /* uniform width */
+    max-width: 90%;    /* responsive */
+    height: auto;      /* full image visible */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,255,255,0.3);
+    display: block;    /* ensures it behaves like a block element */
 }
+
 
 
