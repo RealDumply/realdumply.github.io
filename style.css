@@ -125,11 +125,18 @@ html {
     box-shadow: 0 0 5px rgba(0,255,255,0.3); /* optional glow */
 }
 
-.project-image2 {
-    width:600px;       /* fixed width */
-    height: 450px;      /* fixed height */
-    object-fit: cover;  /* keeps image from stretching, crops excess */
-    border-radius: 8px; /* rounded corners to match design */
-    box-shadow: 0 0 5px rgba(0,255,255,0.3); /* optional glow */
+.project-image2 {           /*def used ai for project-image2 and project image3 since i didnt know how to do it... im sorry...*/
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    gap: 1rem;              /* space between images */
+    align-items: center;     /* optional: center images horizontally */
 }
+
+.project-image3 {
+    width: 400px;     /* same width for all images */
+    height: auto;     /* auto height to keep full image visible */
+    border-radius: 8px; 
+    box-shadow: 0 0 5px rgba(0,255,255,0.3); 
+}
+
 
