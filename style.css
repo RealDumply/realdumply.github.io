@@ -73,7 +73,7 @@ section h2 {
 }
 
 section h3 {
-    font-size: 2rem;
+    font-size: 0.5rem;
     margin-bottom: 1rem;
     color: #00ffff;
 }
@@ -147,6 +147,7 @@ html {
     box-shadow: 0 0 5px rgba(0,255,255,0.3);
     display: block;    /* ensures it behaves like a block element */
 }
+
 
 
 
