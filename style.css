@@ -117,8 +117,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.photo, video, iframe {
-    border: none;
-    border-radius: 8px;
-    max-width: 100%;
+.project-image {
+    width: 200px;       /* fixed width */
+    height: 150px;      /* fixed height */
+    object-fit: cover;  /* keeps image from stretching, crops excess */
+    border-radius: 8px; /* rounded corners to match design */
+    box-shadow: 0 0 5px rgba(0,255,255,0.3); /* optional glow */
 }
+
