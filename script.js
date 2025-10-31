@@ -1,3 +1,5 @@
+//Sajal's Note: Taken from online
+
 // Simple smooth scroll and animation placeholder
 document.addEventListener("DOMContentLoaded", () => {
     const sections = document.querySelectorAll("section");
@@ -16,3 +18,4 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(section);
     });
 });
+
